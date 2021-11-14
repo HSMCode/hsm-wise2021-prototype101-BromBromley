@@ -8,7 +8,7 @@ public class DebugTest : MonoBehaviour
 
     void Awake()
     {
-        Debug.LogWarning("Greetings, I am a debug warning, but you can ignore me.");
+        // Debug.LogWarning("Greetings, I am a debug warning, but you can ignore me.");
     }
     void Start()
     {
