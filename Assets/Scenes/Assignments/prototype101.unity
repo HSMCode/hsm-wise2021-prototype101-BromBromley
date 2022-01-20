@@ -420,6 +420,8 @@ GameObject:
   - component: {fileID: 1616598427}
   - component: {fileID: 1616598426}
   - component: {fileID: 1616598431}
+  - component: {fileID: 1616598430}
+  - component: {fileID: 1616598432}
   m_Layer: 0
   m_Name: variablesTest
   m_TagString: Untagged
@@ -503,6 +505,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1616598430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616598425}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb9e05b4bca4482289148eb9299a2db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luckyNumbers: 000000000000000000000000
 --- !u!114 &1616598431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,7 +525,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616598425}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c7db91e68922405b9250b5bd7ca10a8, type: 3}
   m_Name: 
@@ -520,6 +535,18 @@ MonoBehaviour:
   thirdVariable: 38
   variableSum: 0
   sumText: 'Zusammen ergibt das: '
+--- !u!114 &1616598432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616598425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba79b5174c8f14c8a8f6f5add8ed584d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1668134318
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,7 +574,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668134318}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5a7232c155374167af5965b3941f385, type: 3}
   m_Name: 
